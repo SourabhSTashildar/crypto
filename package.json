@@ -1,0 +1,19 @@
+{
+  "name": "crypto-demo",
+  "version": "1.0.0",
+  "description": "Just an RSA demo of nodejs crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SourabhSTashildar/crypto.git"
+  },
+  "author": "Sourabh S. Tashildar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SourabhSTashildar/crypto/issues"
+  },
+  "homepage": "https://github.com/SourabhSTashildar/crypto#readme"
+}
