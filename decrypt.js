@@ -10,6 +10,7 @@ function decrypt(toDecrypt, relativeOrAbsolutePathtoPrivateKey) {
   const decrypted = crypto.privateDecrypt(
     {
       key: privateKey.toString(),
+      padding:crypto.constants.RSA_PKCS1_PADDING,
       passphrase: '',
     },
     buffer,
